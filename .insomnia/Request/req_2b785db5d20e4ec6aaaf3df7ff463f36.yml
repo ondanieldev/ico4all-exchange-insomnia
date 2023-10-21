@@ -1,0 +1,30 @@
+_id: req_2b785db5d20e4ec6aaaf3df7ff463f36
+type: Request
+parentId: fld_3cf1dc0b1c4b4dbab1e98f2d10b79840
+modified: 1697929984520
+created: 1697929270257
+url: "{{ _.api.url }}/users/{id}"
+name: Find user
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_57584225276c42dda62d0032cda1ef28
+    name: id
+    value: 39c6c32a-8a0c-4db9-acdd-952bb20d94b2
+    description: ""
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOWM2YzMyYS04YTBjLTRkYjktYWNkZC05NTJiYjIwZDk0YjIiLCJ1c2VybmFtZSI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNjk3MDQwODE4LCJleHAiOjE2OTcwNDQ0MTh9.NQ9aP2s_8fPEvbkRhawK31YigxvdooYoQ5VdIBrqsAQ
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697929119813
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_47bfa443a5ad4076ac89d0cfd79eccfb
+type: Request
+parentId: fld_77023622819f4739944a9ef5d8a597ac
+modified: 1697929818919
+created: 1697929161555
+url: "{{ _.api.url }}/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.api.email }}",
+    	"password": "{{ _.api.password }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1697837792383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

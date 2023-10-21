@@ -1,0 +1,17 @@
+_id: env_70a2d9cc648c435b87d9f4cc3d010912
+type: Environment
+parentId: env_96b9c6e14b85113d9a225a3a1ab83dc188144ae0
+modified: 1697929527119
+created: 1697929461310
+name: staging
+data:
+  api:
+    url: https://staging-api.ico4all.com
+dataPropertyOrder:
+  "&":
+    - api
+  "&~|api":
+    - url
+color: "#ffae00"
+isPrivate: false
+metaSortKey: 1697929461310

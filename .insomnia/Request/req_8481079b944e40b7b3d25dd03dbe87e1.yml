@@ -1,0 +1,34 @@
+_id: req_8481079b944e40b7b3d25dd03dbe87e1
+type: Request
+parentId: fld_db4985b07e8a4c42b77347e53441626a
+modified: 1697930036575
+created: 1697837156196
+url: "{{ _.api.url }}/coins"
+name: Create coin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address": "0x0000000000000000000000000000000000000000",
+    	"decimals": 18,
+    	"isNative": true,
+    	"name": "Frenchie",
+    	"symbol": "FREN"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697837156196
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

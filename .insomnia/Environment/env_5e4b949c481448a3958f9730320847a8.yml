@@ -1,0 +1,17 @@
+_id: env_5e4b949c481448a3958f9730320847a8
+type: Environment
+parentId: env_96b9c6e14b85113d9a225a3a1ab83dc188144ae0
+modified: 1697929532327
+created: 1697929465718
+name: production
+data:
+  api:
+    url: https://api.ico4all.com
+dataPropertyOrder:
+  "&":
+    - api
+  "&~|api":
+    - url
+color: "#ff0000"
+isPrivate: false
+metaSortKey: 1697929465718

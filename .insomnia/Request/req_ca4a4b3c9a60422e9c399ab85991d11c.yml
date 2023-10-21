@@ -1,0 +1,27 @@
+_id: req_ca4a4b3c9a60422e9c399ab85991d11c
+type: Request
+parentId: fld_db4985b07e8a4c42b77347e53441626a
+modified: 1697930046316
+created: 1697843715719
+url: "{{ _.api.url }}/coins/{id}"
+name: Delete coin
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_9c89de4dee754fd9b880c13eb2960783
+    name: id
+    value: c4c40e34-055f-4162-ad18-0e721fdd90f7
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697593115035.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

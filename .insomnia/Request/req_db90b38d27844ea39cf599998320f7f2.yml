@@ -1,0 +1,34 @@
+_id: req_db90b38d27844ea39cf599998320f7f2
+type: Request
+parentId: fld_3cf1dc0b1c4b4dbab1e98f2d10b79840
+modified: 1697929976397
+created: 1697929269339
+url: "{{ _.api.url }}/users"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName": "Daniel",
+    	"lastName": "Nascimento",
+    	"email": "oficial.danieloliveira@gmail.com",
+    	"password": "123456",
+    	"role": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697929119863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

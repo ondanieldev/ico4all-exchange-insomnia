@@ -1,0 +1,38 @@
+_id: req_02c0a1a39c9147f491e695879b00c18b
+type: Request
+parentId: fld_db4985b07e8a4c42b77347e53441626a
+modified: 1697930109152
+created: 1697840098357
+url: "{{ _.api.url }}/coins/{id}"
+name: Update coin
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address": "0x0000000000000000000000000000000000000001",
+    	"decimals": 6,
+    	"isNative": false,
+    	"name": "Fren",
+    	"symbol": "FRN"
+    }
+parameters:
+  - id: pair_f5fa6585e09241e0ba0dcb6cf8f3cd23
+    name: id
+    value: ad4a7306-8c9c-40ae-85f6-dd969bce3c17
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1696698297397.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_e0ceb7f622de4c6ab115731df75e067a
+type: Request
+parentId: fld_36a45453d80c4f6cb3d532ba745bf602
+modified: 1697929971690
+created: 1697929163689
+url: "{{ _.api.url }}/wallet/{id}"
+name: Find wallet
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_998eea541f5e4db48a47398afc0704d3
+    name: id
+    value: 39c6c32a-8a0c-4db9-acdd-952bb20d94b2
+    description: ""
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOWM2YzMyYS04YTBjLTRkYjktYWNkZC05NTJiYjIwZDk0YjIiLCJ1c2VybmFtZSI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE2OTc2NzYwNTAsImV4cCI6MTY5NzY3OTY1MH0.Bt1f97BC4P5pXaVUF62PMFz3-q5tBQkE5dCenaCSKnU
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697929162242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
