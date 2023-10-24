@@ -1,0 +1,31 @@
+_id: req_34dc10152d5c44479aa41cae7eef945f
+type: Request
+parentId: fld_6c50213666664f4f9e8fc729e6184350
+modified: 1698180656922
+created: 1698180636883
+url: "{{ _.api.url }}/trades/pairs"
+name: Find paginated pairs
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b721bbcf3cf74b8497ef7a8168cce316
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_065f1d15c39549a981ed6bf716f4a216
+    name: limit
+    value: "100"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1698175994488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

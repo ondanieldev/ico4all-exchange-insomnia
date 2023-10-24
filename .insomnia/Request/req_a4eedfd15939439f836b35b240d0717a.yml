@@ -1,0 +1,27 @@
+_id: req_a4eedfd15939439f836b35b240d0717a
+type: Request
+parentId: fld_6c50213666664f4f9e8fc729e6184350
+modified: 1698180837635
+created: 1698180624065
+url: "{{ _.api.url }}/trades/pairs/{id}"
+name: Delete pair
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_8308102c25bd449284af8c1b80d1139b
+    name: id
+    value: 17c1217b-77f8-4a5c-9148-7b9a65ba0745
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1698177452335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,21 +1,18 @@
-_id: req_8481079b944e40b7b3d25dd03dbe87e1
+_id: req_cf59f6e6b3a245a8b588e2e2d9f593ec
 type: Request
-parentId: fld_db4985b07e8a4c42b77347e53441626a
-modified: 1698180582621
-created: 1697837156196
-url: "{{ _.api.url }}/coins"
-name: Create coin
+parentId: fld_6c50213666664f4f9e8fc729e6184350
+modified: 1698180608602
+created: 1698180368029
+url: "{{ _.api.url }}/trades/pairs"
+name: Create pair
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"address": "0x64fB96d0395f6bf105F35233911e3dF2C5bf4Ce8",
-    	"decimals": 18,
-    	"isNative": false,
-    	"name": "Elastic Bitcoin",
-    	"symbol": "XBT"
+    	"baseCoinId": "d2756b07-2656-4d0e-b8d8-1116b348c8c7",
+    	"coinId": "426ffdbc-4fde-481e-af61-ea84983f2f98"
     }
 parameters: []
 headers:
@@ -24,7 +21,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.api.token }}"
-metaSortKey: -1697837156196
+metaSortKey: -1698180368029
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
