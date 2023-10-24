@@ -1,9 +1,9 @@
 _id: req_c34ef6f6ff154db69c4c5fb1b6f0932a
 type: Request
 parentId: fld_db4985b07e8a4c42b77347e53441626a
-modified: 1697937052127
+modified: 1698182573789
 created: 1697842833061
-url: "{{ _.api.url }}/coins/paginated"
+url: "{{ _.api.url }}/coins"
 name: Find paginated coins
 description: ""
 method: GET

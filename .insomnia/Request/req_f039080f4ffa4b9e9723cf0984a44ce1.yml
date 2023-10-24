@@ -1,9 +1,9 @@
 _id: req_f039080f4ffa4b9e9723cf0984a44ce1
 type: Request
 parentId: fld_3cf1dc0b1c4b4dbab1e98f2d10b79840
-modified: 1697929979854
+modified: 1698182601462
 created: 1697929158192
-url: "{{ _.api.url }}/users"
+url: "{{ _.api.url }}/users/all"
 name: FInd all users
 description: ""
 method: GET
