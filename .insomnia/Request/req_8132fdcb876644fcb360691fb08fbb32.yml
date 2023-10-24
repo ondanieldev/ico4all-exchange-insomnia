@@ -1,21 +1,22 @@
-_id: req_8481079b944e40b7b3d25dd03dbe87e1
+_id: req_8132fdcb876644fcb360691fb08fbb32
 type: Request
-parentId: fld_db4985b07e8a4c42b77347e53441626a
-modified: 1698174837696
-created: 1697837156196
-url: "{{ _.api.url }}/coins"
-name: Create coin
+parentId: fld_0be149cd4fdb485890f7ccb58cf16511
+modified: 1698175154179
+created: 1698174536640
+url: "{{ _.api.url }}/trades/orders"
+name: Create order
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"address": "0xc581b735a1688071a1746c968e0798d642ede491",
-    	"decimals": 18,
-    	"isNative": false,
-    	"name": "Tether",
-    	"symbol": "USDT"
+    	"amount": 10,
+    	"feeCoinId": "d2756b07-2656-4d0e-b8d8-1116b348c8c7",
+    	"limitPrice": 100,
+    	"pairId": "dca8043e-767b-4d84-8981-6e66deb916d9",
+    	"side": "sell",
+    	"type": "market"
     }
 parameters: []
 headers:
@@ -24,7 +25,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.api.token }}"
-metaSortKey: -1697837156196
+metaSortKey: -1698174536641
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_c34ef6f6ff154db69c4c5fb1b6f0932a
 type: Request
 parentId: fld_db4985b07e8a4c42b77347e53441626a
-modified: 1697929961520
+modified: 1697937052127
 created: 1697842833061
 url: "{{ _.api.url }}/coins/paginated"
 name: Find paginated coins
@@ -16,11 +16,11 @@ parameters:
     disabled: true
   - id: pair_45ec085cc3fd40e7b6b370fac4c56562
     name: page
-    value: "1"
+    value: "2"
     description: ""
   - id: pair_9d96a2115bf14d6aa53200da82517592
     name: limit
-    value: "100"
+    value: "1"
     description: ""
   - id: pair_f5f2e4fc29a944ca8be25eff95bef360
     name: orderBy

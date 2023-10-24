@@ -1,0 +1,51 @@
+_id: req_9c21ff0dad9b4621b42ec9fe04c96f47
+type: Request
+parentId: fld_0be149cd4fdb485890f7ccb58cf16511
+modified: 1698176847876
+created: 1698176684773
+url: "{{ _.api.url }}/trades/orders"
+name: Find paginated orders
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f839295ef877495e8f12acbd6dbc9b3c
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_b6e861b29b1e471e954790a42be3f003
+    name: limit
+    value: "100"
+    description: ""
+  - id: pair_fe63d69f72f447c39e0547f340be5d88
+    name: status
+    value: cancelled
+    description: ""
+    disabled: true
+  - id: pair_9a880a9e3c2e45678c820d4e85b12eaa
+    name: type
+    value: limit
+    description: ""
+    disabled: true
+  - id: pair_b1178d45e13c4f74b5fbd3976fc04b08
+    name: side
+    value: buy
+    description: ""
+    disabled: true
+  - id: pair_8add96003bc04507ae381e8d9c6720b3
+    name: pairId
+    value: dca8043e-767b-4d84-8981-6e66deb916d9
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1697992739935.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
