@@ -1,7 +1,7 @@
 _id: env_96b9c6e14b85113d9a225a3a1ab83dc188144ae0
 type: Environment
 parentId: wrk_e8f41d401d3f4afca8f9479c04741655
-modified: 1697930008501
+modified: 1698714378204
 created: 1697929047923
 name: Base Environment
 data:
@@ -10,7 +10,7 @@ data:
     email: john.doe@example.com
     password: password
     token: "{% response 'body', 'req_47bfa443a5ad4076ac89d0cfd79eccfb',
-      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+      'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - api

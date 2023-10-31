@@ -1,7 +1,7 @@
 _id: req_cf59f6e6b3a245a8b588e2e2d9f593ec
 type: Request
 parentId: fld_6c50213666664f4f9e8fc729e6184350
-modified: 1698180608602
+modified: 1698672532986
 created: 1698180368029
 url: "{{ _.api.url }}/trades/pairs"
 name: Create pair

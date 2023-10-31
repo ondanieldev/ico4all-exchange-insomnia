@@ -1,7 +1,7 @@
 _id: req_8132fdcb876644fcb360691fb08fbb32
 type: Request
 parentId: fld_0be149cd4fdb485890f7ccb58cf16511
-modified: 1698175154179
+modified: 1698714455723
 created: 1698174536640
 url: "{{ _.api.url }}/trades/orders"
 name: Create order
@@ -14,7 +14,7 @@ body:
     	"amount": 10,
     	"feeCoinId": "d2756b07-2656-4d0e-b8d8-1116b348c8c7",
     	"limitPrice": 100,
-    	"pairId": "dca8043e-767b-4d84-8981-6e66deb916d9",
+    	"pairId": "18dda547-4a7f-4c68-8841-98542f6b37c3",
     	"side": "sell",
     	"type": "market"
     }

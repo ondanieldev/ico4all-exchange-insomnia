@@ -1,7 +1,7 @@
 _id: req_82eb5a598db046c7a9455fbace9f5622
 type: Request
 parentId: fld_0be149cd4fdb485890f7ccb58cf16511
-modified: 1698175210521
+modified: 1698714470311
 created: 1698175175585
 url: "{{ _.api.url }}/trades/orders/{id}"
 name: Delete order
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_f839295ef877495e8f12acbd6dbc9b3c
     name: id
-    value: 3b7172ad-5f12-447b-a42a-43397e28b1de
+    value: 21239217-f086-46b1-8217-670943d6b8fb
     description: ""
 headers: []
 authentication:

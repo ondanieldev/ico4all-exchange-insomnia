@@ -1,7 +1,7 @@
 _id: req_8481079b944e40b7b3d25dd03dbe87e1
 type: Request
 parentId: fld_db4985b07e8a4c42b77347e53441626a
-modified: 1698180582621
+modified: 1698670985061
 created: 1697837156196
 url: "{{ _.api.url }}/coins"
 name: Create coin
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"address": "0x64fB96d0395f6bf105F35233911e3dF2C5bf4Ce8",
+    	"address": "0x64fB96d0395f6bf105F35233911e3dF2C5bf4Ce7",
     	"decimals": 18,
     	"isNative": false,
     	"name": "Elastic Bitcoin",

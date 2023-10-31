@@ -1,7 +1,7 @@
 _id: req_db90b38d27844ea39cf599998320f7f2
 type: Request
 parentId: fld_3cf1dc0b1c4b4dbab1e98f2d10b79840
-modified: 1697929976397
+modified: 1698714800142
 created: 1697929269339
 url: "{{ _.api.url }}/users"
 name: Create user
@@ -19,8 +19,10 @@ body:
     }
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_3841864731584c468c545ff4baff6b30
+    name: Content-Type
     value: application/json
+    description: ""
 authentication:
   type: bearer
   token: "{{ _.api.token }}"

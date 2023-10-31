@@ -1,7 +1,7 @@
 _id: req_f039080f4ffa4b9e9723cf0984a44ce1
 type: Request
 parentId: fld_3cf1dc0b1c4b4dbab1e98f2d10b79840
-modified: 1698182601462
+modified: 1698714731234
 created: 1697929158192
 url: "{{ _.api.url }}/users/all"
 name: FInd all users
@@ -9,10 +9,7 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers:
-  - name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOWM2YzMyYS04YTBjLTRkYjktYWNkZC05NTJiYjIwZDk0YjIiLCJ1c2VybmFtZSI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE2OTc2NzIxMTIsImV4cCI6MTY5NzY3NTcxMn0.XGc4JdQxcbBakpntN77TEURTgJi1hNqufEEpk41m13Q
+headers: []
 authentication:
   type: bearer
   token: "{{ _.api.token }}"
