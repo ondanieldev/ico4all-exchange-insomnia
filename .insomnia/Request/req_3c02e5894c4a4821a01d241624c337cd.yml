@@ -1,0 +1,23 @@
+_id: req_3c02e5894c4a4821a01d241624c337cd
+type: Request
+parentId: fld_1907296ef6d3467bafd56833b2b2c7d2
+modified: 1699580000569
+created: 1699579977136
+url: "{{ _.api.url }}/notifications/mark-as-seen/all"
+name: Mark  all notifications as seen
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1699478826127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

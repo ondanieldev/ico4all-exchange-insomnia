@@ -1,0 +1,38 @@
+_id: req_d437a95f53c940a5bacdb1be9c4f0c76
+type: Request
+parentId: fld_1907296ef6d3467bafd56833b2b2c7d2
+modified: 1699580696707
+created: 1699573771075
+url: "{{ _.api.url }}/notifications"
+name: Find notifications
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_18a0af2db6ab4d319d1ba2d908dd6e58
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_0e3a4dc275624301b915e9aeee875f48
+    name: limit
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_2e3a19deb36f48c9addec41422ab449f
+    name: isSeen
+    value: "true"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1699478826164.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

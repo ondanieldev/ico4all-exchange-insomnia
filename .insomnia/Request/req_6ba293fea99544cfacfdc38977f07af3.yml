@@ -1,0 +1,32 @@
+_id: req_6ba293fea99544cfacfdc38977f07af3
+type: Request
+parentId: fld_1907296ef6d3467bafd56833b2b2c7d2
+modified: 1699580817998
+created: 1699568843467
+url: "{{ _.api.url }}/notifications/test/group"
+name: Test group notification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"template": "sms-test",
+    	"userIds": ["a8065816-cd98-463d-8575-658db0cf5000", "a8065816-cd98-463d-8575-658db0cf5002"],
+    	"groups": ["testers"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1699169966596.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

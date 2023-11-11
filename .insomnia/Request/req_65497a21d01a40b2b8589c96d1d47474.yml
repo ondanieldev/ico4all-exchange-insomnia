@@ -1,0 +1,31 @@
+_id: req_65497a21d01a40b2b8589c96d1d47474
+type: Request
+parentId: fld_1907296ef6d3467bafd56833b2b2c7d2
+modified: 1699580813470
+created: 1699478834723
+url: "{{ _.api.url }}/notifications/test/user"
+name: Test user notification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"template": "in-app-test",
+    	"userIds": ["a8065816-cd98-463d-8575-658db0cf5000"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1699478826102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

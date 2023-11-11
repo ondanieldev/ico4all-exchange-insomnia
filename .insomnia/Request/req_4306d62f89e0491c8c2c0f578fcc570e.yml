@@ -1,0 +1,23 @@
+_id: req_4306d62f89e0491c8c2c0f578fcc570e
+type: Request
+parentId: fld_1907296ef6d3467bafd56833b2b2c7d2
+modified: 1699580714076
+created: 1699580680927
+url: "{{ _.api.url }}/notifications/count/unseen"
+name: Count unseen notifications
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1699478826202
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
